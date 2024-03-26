@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:transitionName="photoToAnimate"
+        android:src="@drawable/publication"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        tools:src="@drawable/publication" />
+
+    <TextView
+        android:id="@+id/publication_title"
+        android:layout_marginHorizontal="10dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"
+        android:text="Movie Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginHorizontal="10dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="Publisher :-"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/publisherName"
+            android:layout_marginHorizontal="10dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="Publisher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginHorizontal="10dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="Place of Publication :-"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/place_of_publication"
+            android:layout_marginHorizontal="10dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="Publisher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginHorizontal="10dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="Subjects :-"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/subjects"
+            android:layout_marginHorizontal="10dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="Publisher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginHorizontal="10dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="Languages :-"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/languages"
+            android:layout_marginHorizontal="10dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="Publisher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginHorizontal="10dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="Cities :-"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/cities"
+            android:layout_marginHorizontal="10dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="Publisher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_marginTop="50dp"
+       android:layout_marginHorizontal="30dp"
+       android:layout_height="wrap_content"
+      >
+       <Button
+           android:id="@+id/edit_button"
+           android:layout_width="100dp"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:layout_marginHorizontal="40dp"
+           android:text="Edit" />
+       <Button
+           android:id="@+id/delete_button"
+           android:layout_width="100dp"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:layout_marginHorizontal="40dp"
+           android:text="Delete" />
+   </LinearLayout>
+
+
+</LinearLayout>
